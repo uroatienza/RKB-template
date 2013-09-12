@@ -1,4 +1,11 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
 
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
 
 .custom-logo { 
 	width: 138px;
@@ -285,7 +292,7 @@ vertical-align: middle !important;
 
 /*layout.css line 77  */
 #menubar {
-	margin-bottom:	-4px;
+	margin-bottom:	-6px;
 	float: left;
 	margin-left: 10%;
 }
@@ -307,7 +314,7 @@ margin:0 !important;
 
 /*layout.css line 98  */
 #menu {
-margin-top:	12px !important;
+margin-top:	11px !important;
 }
 
 /* media/tabs/css/style.min.css line 1 */
@@ -327,7 +334,7 @@ cursor: default;
 
 /* for steady top menu even at max width */
 @media (min-width: 1617px) {
- #menubar { margin-top: 100px; float:left;}
+ #menubar { margin-top: 100px;}
 }
 
 @media (max-width: 767px) {
@@ -348,10 +355,17 @@ cursor: default;
 
 
 @media (min-width: 767px) and (max-width: 946px) { #header { background: url(../images/menubg2.png) 0 110px repeat-x; } }
+@media (max-width: 904px) { #irrilogo {
+position:absolute; right: 0px; margin-top: -2px;
+}
+#menubar {
+margin-bottom: 0px;
+}
+}
 
 @media (max-width: 1024px) { /*layout.css line 77  */
 #menubar {
-	margin-left: auto;
+	margin-left: auto; 
 } }
 
 
