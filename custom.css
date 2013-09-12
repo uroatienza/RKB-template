@@ -1,0 +1,352 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+.custom-logo { 
+	width: 138px;
+	height: 72px;
+	background: url(../../../images/yootheme/logo.png) 0 0 no-repeat;
+	background-size: contain;
+}
+
+.margin-tb-20 { margin: 20px 0; }
+.margin-l-40 { margin-left: 40px; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+/* Fixing the flickering for -webkit- browsers */
+.module { -webkit-backface-visibility: hidden; }
+
+
+/* Frontpage: Features
+----------------------------------------------------------------------------------------------------*/
+
+.frontpage-teaser1 {
+	background-image: url(../../../images/yootheme/demo/slideshow/infinite_teaser1_default.jpg);
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.frontpage-teaser2 {
+	background-image: url(../../../images/yootheme/demo/slideshow/infinite_teaser2_default.jpg);
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.frontpage-teaser3 {
+	background-image: url(../../../images/yootheme/demo/slideshow/infinite_teaser3_default.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* Frontpage: Features
+----------------------------------------------------------------------------------------------------*/
+
+.frontpage-features { 
+	margin-top: 30px; 
+	overflow: hidden;
+}
+
+.frontpage-features h1 {
+	margin: 20px 0 5px 0;
+	font-size: 19px;
+	line-height: 20px;
+}
+
+/* Frontpage: Check
+----------------------------------------------------------------------------------------------------*/
+
+.frontpage-check {
+	float: left;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+
+/* Frontpage: Team
+----------------------------------------------------------------------------------------------------*/
+
+.frontpage-team h1 {
+	margin: 20px 0 0 0;
+	font-size: 40px;
+	line-height: 41px;
+}
+
+.frontpage-team p {
+	margin: 10px 0 0 0;
+	font-size: 17px;
+	line-height: 22px;
+}
+
+
+/* Frontpage: Contact
+----------------------------------------------------------------------------------------------------*/
+
+ul.line.frontpage-contact > li {
+	margin: 0;
+	padding: 15px 0;
+	border-top: none;
+	background: url(../images/line_bg.png) bottom repeat-x;
+}
+
+ul.line.frontpage-contact > li:first-child { 
+	background: url(../images/line_bg.png) top repeat-x,
+				url(../images/line_bg.png) bottom repeat-x;
+}
+
+ul.line.frontpage-contact strong {
+	float: left;
+	width: 140px;
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: normal;
+}
+
+ul.line.frontpage-contact div { display: inline-block; }
+
+
+/* Frontpage: Clients
+----------------------------------------------------------------------------------------------------*/
+
+.frontpage-clients a {
+	float: left;
+	opacity: 0.5;
+	margin: 0 -1px -1px 0;
+	border: 1px solid #616a73;
+	border: 1px solid rgba(255,255,255,0.5); 
+}
+
+.frontpage-clients a:hover {
+	opacity: 1;
+	border: 1px solid #FFF;
+	background-color: rgba(255,255,255,0.05);
+}
+
+.frontpage-teaser { line-height: 0; }
+.frontpage-teaser img { 
+	display: block; 
+	line-height: 0;
+}
+
+
+/* Responsive 
+----------------------------------------------------------------------------------------------------*/
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+	/* Layout */
+	.margin-l-40 { margin-left: 0; }
+    
+}
+
+/* Only Tablets (Portrait) */
+@media (min-width: 768px) and (max-width: 959px) {
+
+	/* Layout */
+	#block-bottom-b .width33 { width: 100%; }
+
+	.frontpage-features img {
+		float: none;
+		margin: auto auto 15px;
+	}
+
+	.frontpage-check.width50 { width: 100%; }
+	
+}
+
+/*------------------------------------------------ URO CUSTOMISE START----------------------------------------------------*/
+
+/* elearning/factsheets apps teaser h2 CSS override. from media/zoo/app/product/tem/default/assets/css/category.css*/
+h2.pos-title { color:#639846; font-size: 25px !important; line-height: 27px !important; font-weight: normal !important;}
+
+/* modification of bootstrap line 686*/
+ul,
+ol {
+  /*padding: 0; edited by uro*/
+  margin: 0 0 10px 0px; /*edited byu uro*/
+}
+
+/* figure caption customization */
+figcaption { text-align:center; 
+font-family: "OpenSansRegular";
+color: rgba(121, 106, 94, 0.66);
+font-size: 9pt;
+}
+
+/* breadcrumb modification / */
+.breadcrumbCustomise {padding: 4px 10px !important;} /*added by Uro */
+
+/* layout.css modification line 29 */
+.wrapper.max-width65 { max-width: 1076px; } /* edited by uro*/
+.wrapper.max-width80 { max-width: 1076px; } /* edited by uro*/
+.wrapper.max-width100 { max-width: 100%; } /* edited by uro*/
+.block-bottom-c.wrapper.max-width100 { max-width: 1076px; } /*to override home page footer 100% layout / edited by uro*/
+.block-top-a.wrapper.max-width100 { max-width: 1076px; } /*to override home page banner 100% layout / edited by uro*/
+
+/* layout.css modification line 44 */
+#block-bottom-c {background: #FEFFEB url(../images/rice-bg-footer.png) bottom repeat-x;color:#984706;} /* added by Uro */
+#block-bottom-c li, #block-bottom-c p {color:#585858 !important;line-height: 13px;margin-bottom: 10px;} /* added by Uro */
+#block-bottom-c a, #block-bottom-c a:hover {color:#585858 !important;} /* added by Uro */
+#block-bottom-c ul,  #block-bottom-c ul {padding: 0;} /* added by Uro */
+
+/* trial */
+/*.item101 {display:none !important;} hide home menu item*/
+/*.item486 span.icon {height:30px !important; margin: 0px !important; width: 100px !important;}*/
+/*a .irriLogoMenu:hover{ background: #fff !important;} code by uro*/
+/* end trial */
+
+/*menu.css modification line 30*/
+.menu-dropdown a.level1 > span,
+.menu-dropdown span.level1 > span { 
+  height: 30px;
+}
+
+/* menu.css Drop-Down line 60 */
+.menu-dropdown .dropdown { 
+  top: 44px;
+}
+
+/* menu.css sidebar  level1 line 151 */
+.menu-sidebar span.level1 { text-transform: capitalize; }
+
+/* Smart Search module customise by Uro */
+.smartSearch {border: solid 1px rgba(149, 221, 57, 0.5);
+border-radius: 3px; background-color: #fff;}
+
+/* footer grid-box module customise by Uro */
+.footerBox { border: 0; background: none;border-top: solid 8px #E9E9E9;}
+
+/* system-all.css modified line 125*/
+.searchbox {
+	height: 30px;
+	border-style: none;
+}
+.searchbox input {
+	text-transform: lowercase;
+}
+
+/* menu.css line 13*/
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 {
+  padding-bottom: 1px;
+  border-width: 0 1px 0 1px;
+  border-style: solid;
+  border-right-color: #418100;
+  border-left-color: #418100;
+  font-size: 15px;
+  color:#FCFFB8;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.47);
+}
+
+/* style.min.css. line 2. of media/slider/css/style.min.css */
+.accordion-toggle img {
+padding: 0 !important;
+background: none !important;
+margin: 0 !important;
+vertical-align: middle !important;
+}
+
+/*menu font size*/
+.menu-dropdown a.level2 > span, 
+.menu-dropdown span.level2 > span { 
+  font-size:14px;
+}
+
+/*style.css. line 57 of template/yootheme/style/green/ menu dropdown background*/
+.menu-dropdown li.active .level1:before,
+#menu .menu-dropdown li.level1:hover .level1,
+#menu .menu-dropdown li.remain .level1,
+.menu-dropdown .dropdown-bg > div { background-color: #49742a !important; }
+
+/*slideshow tabs css. at media/widgetkit/style.css */
+.wk-slideshow-tabs-steam .nav li {
+	margin: 0 0 0 5px;
+	border-radius: 2px;
+	background: rgba(204, 204, 204, 0.34);
+	box-shadow: 0 2px 0 rgba(0,0,0,0.1);
+	color: #fff;
+}
+
+/*slideshow style.css. at media/widgetkit/slideshow/default/style.css */
+.wk-slideshow-default .nav {
+	margin-top: 15px;
+	text-align: right;
+	/*edited by uro*/
+	position: absolute;
+	bottom: -45px;
+	right: 0;
+}
+
+/*layout.css line 77  */
+#menubar {
+	margin-bottom:	-4px;
+	float: left;
+	margin-left: 10%;
+}
+
+/*layout.css line 101  */
+#countryMenu {
+float: right;
+}
+
+#irrilogo {
+float: left;
+margin-right: 20px;
+}
+
+#irrilogo img, .irrilogo {
+padding:0 !important;
+margin:0 !important;
+}
+
+/*layout.css line 98  */
+#menu {
+margin-top:	12px !important;
+}
+
+
+/* for steady top menu even at max width */
+@media (min-width: 1617px) {
+ #menubar { margin-top: 100px; float:left;}
+}
+
+@media (max-width: 767px) {
+
+	#countryMenu, #countryMenu select  {
+		width: 100%;
+		font-size: 14px;
+	}
+	
+  .element-itemprint a.element-print-button { display: none; }
+  
+  #header { margin-bottom: 20px; background: none; } 
+  #block-header {		border-bottom: 4px solid #669933;}
+  /* System */
+  .searchbox { border: none; }
+
+}
+
+
+@media (min-width: 767px) and (max-width: 946px) { #header { background: url(../images/menubg2.png) 0 110px repeat-x; } }
+
+@media (max-width: 1024px) { /*layout.css line 77  */
+#menubar {
+	margin-left: auto;
+} }
+
+
+
+/*------------------------------------------------ URO CUSTOMISE END----------------------------------------------------*/
