@@ -1,11 +1,4 @@
-/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
 
-/*
- * Custom Style Sheet - Use this file to style your content
- */
-
-/* Layout
-----------------------------------------------------------------------------------------------------*/
 
 .custom-logo { 
 	width: 138px;
@@ -315,6 +308,20 @@ margin:0 !important;
 /*layout.css line 98  */
 #menu {
 margin-top:	12px !important;
+}
+
+/* media/tabs/css/style.min.css line 1 */
+.nn_tabs .nav-tabs>li {
+padding: 0px !important;
+background: none !important;
+}
+
+.nn_tabs .nav-tabs>li.active>a, .nn_tabs .nav-tabs>li.active>a:hover {
+color: #FFF;
+background-color: #F5A821;
+border: 1px solid #ddd;
+border-bottom-color: transparent;
+cursor: default;
 }
 
 
