@@ -1,10 +1,4 @@
-/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
 
-/*
- * Custom Style Sheet - Use this file to style your content
- */
-
-/* Layout
 ----------------------------------------------------------------------------------------------------*/
 
 .custom-logo { 
@@ -329,6 +323,21 @@ background-color: #F5A821;
 border: 1px solid #ddd;
 border-bottom-color: transparent;
 cursor: default;
+}
+
+/*base.css override for the jcepopup */
+a.jcepopup strong {
+color: #639846;
+}
+
+/* Module Icons */
+.module .module-title .icon { 
+	top: -8px;
+	/*left: -2px;*/
+	width: 33px;
+	height: 33px;
+	/*margin-right: 7px; edited by uro*/
+	background-repeat: no-repeat;
 }
 
 
