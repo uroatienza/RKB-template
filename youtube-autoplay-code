@@ -1,9 +1,20 @@
 ?autoplay=1 
 // put at the end of the link of single video embed
 
+
+
+
 &amp;autoplay=1
 // put at the end of the link of playlist video embed
 
 
+
+
 {source}<iframe src="images/pdfs/factsheets-domains.pdf" width="100%" height="800"></iframe>{/source}
 //fact sheet embedding
+
+
+
+
+{zooitem:145 text: Increasing impact: a checklist}
+//insert zoo article using shortcode
