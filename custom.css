@@ -1,4 +1,5 @@
--------------------------------------------------------------------------------------------*/
+
+----------------------------------------------------------------------------------------------------*/
 
 .custom-logo { 
 	width: 138px;
@@ -179,7 +180,7 @@ font-size: 9pt;
 }
 
 /* breadcrumb modification / */
-.breadcrumbCustomise {padding: 4px 10px !important;} /*added by Uro */
+.breadcrumbCustomise {padding: 4px 10px !important; } /*added by Uro */
 
 /* layout.css modification line 29 */
 .wrapper.max-width65 { max-width: 1076px; } /* edited by uro*/
@@ -219,7 +220,10 @@ font-size: 9pt;
 border-radius: 3px; background-color: #fff;}
 
 /* footer grid-box module customise by Uro */
-.footerBox { border: 0; background: none;border-top: solid 8px #E9E9E9;}
+.footerBox { background: rgba(255, 255, 255, 0.28);border-top: solid 8px #E9E9E9;
+border-right: solid 1px #E9E9E9;
+border-left: solid 1px #E9E9E9;
+border-bottom: solid 1px #E9E9E9;top: -20px;}
 
 /* system-all.css modified line 125*/
 .searchbox {
