@@ -346,6 +346,16 @@ overflow: hidden;
 float: left;
 }
 
+/*module.css line 49 */
+.module .module-title {
+    margin: 0 0 10px 0;
+}
+
+/* widgetkit.css line 48 */
+.wk-zoo-item p.links a {
+color: rgb(215, 247, 115) !important;
+}
+
 /*style.min.css at media/tabs/css/*/
 .nn_tabs>ul.nav-tabs>li>a {
 color: #639846;
@@ -363,6 +373,11 @@ color: #639846;
 }
 #yoo-zoo .categories a.teaser-image {
 	float: none;
+}
+
+/* ITEM Feeds */
+.newsfeedstyle-box ul{
+ margin-left: -40px;
 }
 
 
