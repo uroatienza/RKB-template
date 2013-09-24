@@ -1,4 +1,10 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
 
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+
+/* Layout
 ----------------------------------------------------------------------------------------------------*/
 
 .custom-logo { 
@@ -180,7 +186,24 @@ font-size: 9pt;
 }
 
 /* breadcrumb modification / */
-.breadcrumbCustomise {padding: 4px 10px !important; } /*added by Uro */
+.breadcrumbCustomise {padding: 0 !important; 
+background: rgba(255, 255, 255, 0.28);
+border: solid 1px #E9E9E9;
+box-shadow: inset 1px 0px 17px rgba(20, 20, 20, 0.08); } /*added by Uro */
+
+.breadcrumbs a, .breadcrumbs > span {
+padding: 4px 12px 4px 6px !important;
+background-color: #FCFFB8;
+margin-right: 0px;
+}
+
+.breadcrumbs strong {
+background-color: #FCFFB8;
+background-image: url(../images/breadcrumbs-end.png);
+background-position: 100% 0;
+background-repeat: no-repeat;
+padding: 4px 12px 4px 6px !important;
+}
 
 /* layout.css modification line 29 */
 .wrapper.max-width65 { max-width: 1076px; } /* edited by uro*/
@@ -207,6 +230,11 @@ font-size: 9pt;
   height: 30px;
 }
 
+/*menu.css modification line 36*/
+.menu-dropdown li.active .level1 {
+background-color: #FCFFB8;
+}
+
 /* menu.css Drop-Down line 60 */
 .menu-dropdown .dropdown { 
   top: 44px;
@@ -220,10 +248,11 @@ font-size: 9pt;
 border-radius: 3px; background-color: #fff;}
 
 /* footer grid-box module customise by Uro */
-.footerBox { background: rgba(255, 255, 255, 0.28);border-top: solid 8px #E9E9E9;
+.footerBox { background: rgba(255, 255, 255, 0.28);border-top: solid 1px #E9E9E9;
 border-right: solid 1px #E9E9E9;
 border-left: solid 1px #E9E9E9;
-border-bottom: solid 1px #E9E9E9;top: -20px;}
+border-bottom: solid 1px #E9E9E9;top: -20px;
+box-shadow: inset 1px 0px 17px rgba(20, 20, 20, 0.08);}
 
 /* system-all.css modified line 125*/
 .searchbox {
