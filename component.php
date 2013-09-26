@@ -27,9 +27,14 @@ $this->setHeadData($head);
 	<meta charset="<?php echo $this->getCharset(); ?>" />
 	<jdoc:include type="head" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/screen.css" type="text/css" />
+    <style type="text/css">
+    	.factsheetImages { width:100%;
+		}
+    </style>
 </head>
 <body class="contentpane">
+<div><img class="factsheetImages" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/header.png"/></div>
 	<jdoc:include type="message" />
-	<jdoc:include type="component" />
+    <jdoc:include type="component" />
 </body>
 </html>
