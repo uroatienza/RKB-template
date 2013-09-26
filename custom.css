@@ -205,6 +205,11 @@ background-repeat: no-repeat;
 padding: 4px 12px 4px 6px !important;
 }
 
+/* slideshow tab */
+.wk-slideshow-tabs-steam .nav {
+display: none;
+}
+
 /* layout.css modification line 29 */
 .wrapper.max-width65 { max-width: 1076px; } /* edited by uro*/
 .wrapper.max-width80 { max-width: 1076px; } /* edited by uro*/
@@ -372,9 +377,9 @@ overflow: hidden;
 float: left;
 }
 
-/*module.css line 49 */
-.module .module-title {
-    margin: 0 0 10px 0;
+/*Related video title fix for IE*/
+.mod-box-grey h3 {
+margin: 0 0 10px 0 !important;
 }
 
 /* widgetkit.css line 48 */
