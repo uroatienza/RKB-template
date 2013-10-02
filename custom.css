@@ -1,4 +1,11 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
 
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
 
 .custom-logo { 
 	width: 138px;
@@ -15,7 +22,7 @@
 ----------------------------------------------------------------------------------------------------*/
 
 /* Fixing the flickering for -webkit- browsers */
-.module { -webkit-backface-visibility: hidden; }
+.module { -webkit-backface-visibility: hidden; margin: 5px;}
 
 
 /* Frontpage: Features
@@ -245,9 +252,9 @@ background-color: #FCFFB8;
 }
 
 /* menu.css sidebar  level1 line 151 */
-.menu-sidebar a.level1 > span {padding:0;}
+.menu-sidebar a.level1 > span {padding:5px 0 5px 0;}
 .menu-sidebar span.level1 { text-transform: capitalize; }
-.menu-sidebar li { list-style: disc; border: none !important;}
+.menu-sidebar li.level1 { list-style: disc;}
 .menu-sidebar {padding: 0 0 0 30px;}
 
 /* Smart Search module customise by Uro */
@@ -335,6 +342,11 @@ vertical-align: middle !important;
 /*layout.css line 101  */
 #countryMenu {
 float: right;
+}
+
+#countryMenu h3.module-title {
+	font-size: 12px;
+	margin: 0;
 }
 
 #irrilogo {
