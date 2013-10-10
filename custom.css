@@ -6,50 +6,38 @@
 
 /* Layout
 ----------------------------------------------------------------------------------------------------*/
-
 .custom-logo { 
 	width: 138px;
 	height: 72px;
 	background: url(../../../images/yootheme/logo.png) 0 0 no-repeat;
 	background-size: contain;
 }
-
 .margin-tb-20 { margin: 20px 0; }
 .margin-l-40 { margin-left: 40px; }
-
-
 /* Modules
 ----------------------------------------------------------------------------------------------------*/
-
 /* Fixing the flickering for -webkit- browsers */
 .module { -webkit-backface-visibility: hidden; margin: 5px;}
-
-
 /* Frontpage: Features
 ----------------------------------------------------------------------------------------------------*/
-
 .frontpage-teaser1 {
 	background-image: url(../../../images/yootheme/demo/slideshow/infinite_teaser1_default.jpg);
 	background-position: 0 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
 .frontpage-teaser2 {
 	background-image: url(../../../images/yootheme/demo/slideshow/infinite_teaser2_default.jpg);
 	background-position: 0 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
 .frontpage-teaser3 {
 	background-image: url(../../../images/yootheme/demo/slideshow/infinite_teaser3_default.jpg);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
-
 /* Frontpage: Features
 ----------------------------------------------------------------------------------------------------*/
 
@@ -66,45 +54,36 @@
 
 /* Frontpage: Check
 ----------------------------------------------------------------------------------------------------*/
-
 .frontpage-check {
 	float: left;
 	margin-bottom: 20px;
 	text-transform: uppercase;
 }
 
-
 /* Frontpage: Team
 ----------------------------------------------------------------------------------------------------*/
-
 .frontpage-team h1 {
 	margin: 20px 0 0 0;
 	font-size: 40px;
 	line-height: 41px;
 }
-
 .frontpage-team p {
 	margin: 10px 0 0 0;
 	font-size: 17px;
 	line-height: 22px;
 }
-
-
 /* Frontpage: Contact
 ----------------------------------------------------------------------------------------------------*/
-
 ul.line.frontpage-contact > li {
 	margin: 0;
 	padding: 15px 0;
 	border-top: none;
 	background: url(../images/line_bg.png) bottom repeat-x;
 }
-
 ul.line.frontpage-contact > li:first-child { 
 	background: url(../images/line_bg.png) top repeat-x,
 				url(../images/line_bg.png) bottom repeat-x;
 }
-
 ul.line.frontpage-contact strong {
 	float: left;
 	width: 140px;
@@ -112,13 +91,9 @@ ul.line.frontpage-contact strong {
 	color: #FFF;
 	font-weight: normal;
 }
-
 ul.line.frontpage-contact div { display: inline-block; }
-
-
 /* Frontpage: Clients
 ----------------------------------------------------------------------------------------------------*/
-
 .frontpage-clients a {
 	float: left;
 	opacity: 0.5;
@@ -126,48 +101,42 @@ ul.line.frontpage-contact div { display: inline-block; }
 	border: 1px solid #616a73;
 	border: 1px solid rgba(255,255,255,0.5); 
 }
-
 .frontpage-clients a:hover {
 	opacity: 1;
 	border: 1px solid #FFF;
 	background-color: rgba(255,255,255,0.05);
 }
-
 .frontpage-teaser { line-height: 0; }
 .frontpage-teaser img { 
 	display: block; 
 	line-height: 0;
 }
 
-
 /* Responsive 
 ----------------------------------------------------------------------------------------------------*/
-
 /* Only Phones and Tablets (Portrait) */
 @media (max-width: 959px) {
 
 	/* Layout */
-	.margin-l-40 { margin-left: 0; }
-    
+	.margin-l-40 { margin-left: 0; } 
 }
-
 /* Only Tablets (Portrait) */
 @media (min-width: 768px) and (max-width: 959px) {
-
 	/* Layout */
 	#block-bottom-b .width33 { width: 100%; }
-
 	.frontpage-features img {
 		float: none;
 		margin: auto auto 15px;
 	}
-
 	.frontpage-check.width50 { width: 100%; }
-	
 }
-
 /*------------------------------------------------ URO CUSTOMISE START----------------------------------------------------*/
-
+#yoo-zoo .item div.pos-content img {
+  max-width: 300px !important;  /* for IE image limit*/
+}
+.wk-slideset img { 
+ height: 309px;  /* chrome shrinking image size resolution */
+}
 /* elearning/factsheets apps teaser h2 CSS override. from media/zoo/app/product/tem/default/assets/css/category.css*/
 h2.pos-title { color:#639846; font-size: 25px !important; line-height: 27px !important; font-weight: normal !important;}
 
@@ -311,7 +280,7 @@ vertical-align: middle !important;
 .menu-dropdown li.active .level1:before,
 #menu .menu-dropdown li.level1:hover .level1,
 #menu .menu-dropdown li.remain .level1,
-.menu-dropdown .dropdown-bg > div { background-color: #49742a !important; }
+.menu-dropdown .dropdown-bg > div { background-color: #49742a !important;}
 
 /*slideshow tabs css. at media/widgetkit/style.css */
 .wk-slideshow-tabs-steam .nav li {
@@ -321,7 +290,6 @@ vertical-align: middle !important;
 	box-shadow: 0 2px 0 rgba(0,0,0,0.1);
 	color: #fff;
 }
-
 /*slideshow style.css. at media/widgetkit/slideshow/default/style.css */
 .wk-slideshow-default .nav {
 	margin-top: 15px;
@@ -331,45 +299,37 @@ vertical-align: middle !important;
 	bottom: -45px;
 	right: 0;
 }
-
 /*layout.css line 77  */
 #menubar {
 	margin-bottom:	-6px;
 	float: left;
 	margin-left: 10%;
 }
-
 /*layout.css line 101  */
 #countryMenu {
 float: right;
 }
-
 #countryMenu h3.module-title {
 	font-size: 12px;
 	margin: 0;
 }
-
 #irrilogo {
 float: left;
 margin-right: 20px;
 }
-
 #irrilogo img, .irrilogo {
 padding:0 !important;
 margin:0 !important;
 }
-
 /*layout.css line 98  */
 #menu {
 margin-top:	11px !important;
 }
-
 /* media/tabs/css/style.min.css line 1 */
 .nn_tabs .nav-tabs>li {
 padding: 0px !important;
 background: none !important;
 }
-
 .nn_tabs .nav-tabs>li.active>a, .nn_tabs .nav-tabs>li.active>a:hover {
 color: #FFF;
 background-color: #F5A821;
@@ -377,12 +337,10 @@ border: 1px solid #ddd;
 border-bottom-color: transparent;
 cursor: default;
 }
-
 /*base.css override for the jcepopup */
 a.jcepopup strong {
 color: #639846;
 }
-
 /* Module Icons */
 .module .module-title .icon { 
 margin-right: 5px;
@@ -392,28 +350,23 @@ position: relative;
 overflow: hidden;
 float: left;
 }
-
 /*Related video title fix for IE*/
 .mod-box-grey h3 {
 margin: 0 0 10px 0 !important;
 }
-
 /* widgetkit.css line 48 */
 .wk-zoo-item p.links a {
 color: rgb(215, 247, 115) !important;
 }
-
 /*style.min.css at media/tabs/css/*/
 .nn_tabs>ul.nav-tabs>li>a {
 color: #639846;
 }
-
 /*tooltip*/
 .nn_tooltips-link {
 	padding: 0 22px 0 0;
 	background: url(../images/tools/tooltip.png) right no-repeat;
 }
-
 /* zoo apps, documentation/templates/ category.css */
 #yoo-zoo .categories h2.title {
 	text-transform: capitalize;
@@ -421,18 +374,33 @@ color: #639846;
 #yoo-zoo .categories a.teaser-image {
 	float: none;
 }
-
 /* ITEM Feeds */
 .newsfeedstyle-box ul{
  margin-left: -40px;
 }
-
-
+/*item print */
+.element-itemprint a.element-print-button {
+float: right;
+display: inline-block;
+width: 16px;
+height: 16px;
+border:none;
+}
+/* fact sheet author */
+#yoo-zoo .item div.pos-description .last {
+margin-top: 20px;
+padding: 10px;
+border-top: 1px solid #c8c8c8;
+border-bottom: 1px solid #c8c8c8;
+background: #f5f5f5;
+overflow: hidden;
+font-size: 12px;
+color: #464646;
+}
 /* for steady top menu even at max width */
 @media (min-width: 1617px) {
  #menubar { margin-top: 100px;}
 }
-
 @media (max-width: 767px) {
 
 	#countryMenu, #countryMenu select  {
@@ -448,8 +416,6 @@ color: #639846;
   .searchbox { border: none; }
 
 }
-
-
 @media (min-width: 767px) and (max-width: 946px) { #header { background: url(../images/menubg2.png) 0 110px repeat-x; } }
 @media (max-width: 904px) { #irrilogo {
 position:absolute; right: 0px; margin-top: -2px;
@@ -458,12 +424,8 @@ position:absolute; right: 0px; margin-top: -2px;
 margin-bottom: 0px;
 }
 }
-
 @media (max-width: 1024px) { /*layout.css line 77  */
 #menubar {
 	margin-left: auto; 
 } }
-
-
-
 /*------------------------------------------------ URO CUSTOMISE END----------------------------------------------------*/
