@@ -18,3 +18,10 @@ factsheetstyling
 
 640px
 //image width standard
+
+
+{yoonique_item: 611 element: Text}
+//younique code
+
+{zooitem:611 text: Read more...}
+//zoo item short code
