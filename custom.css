@@ -131,8 +131,11 @@ ul.line.frontpage-contact div { display: inline-block; }
 	.frontpage-check.width50 { width: 100%; }
 }
 /*------------------------------------------------ URO CUSTOMISE START----------------------------------------------------*/
-#yoo-zoo .item div.pos-content img {
-  max-width: 300px !important;  /* for IE image limit*/
+
+.bg-color1 strong { color:#FFF !important; } /* country RKB module desciption text */
+
+#yoo-zoo .item div.pos-content img, #yoo-zoo .description img {
+  max-width: 250px !important;  /* for IE image limit*/
 }
 .wk-slideset img { 
  height: 309px;  /* chrome shrinking image size resolution */
@@ -198,8 +201,8 @@ display: none;
 #block-bottom-c a, #block-bottom-c a:hover {color:#585858 !important;} /* added by Uro */
 #block-bottom-c ul,  #block-bottom-c ul {padding: 0;} /* added by Uro */
 
-/* trial */
-/*.item101 {display:none !important;} hide home menu item*/
+/* hide home menu */
+.item101 {display:none !important;} /*hide home menu item*/
 /*.item486 span.icon {height:30px !important; margin: 0px !important; width: 100px !important;}*/
 /*a .irriLogoMenu:hover{ background: #fff !important;} code by uro*/
 /* end trial */
@@ -396,7 +399,26 @@ background: #f5f5f5;
 overflow: hidden;
 font-size: 12px;
 color: #464646;
+clear: both;
 }
+
+/*manual <li>*/
+.manualli a{
+color: #9D9D9D;
+}
+
+.manualli ul{
+margin: 0px 0px 0px -10px;
+}
+.manualli ul li {
+border-top: 1px solid #DBDBDB;
+padding: 5px 0 5px 0;
+}
+.manualli ul li:first-child {
+border-top: none;
+}
+
+
 /* for steady top menu even at max width */
 @media (min-width: 1617px) {
  #menubar { margin-top: 100px;}
