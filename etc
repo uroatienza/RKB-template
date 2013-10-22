@@ -1,37 +1,37 @@
-1. youtube autoplay, put at the end of the link of single video embed
+1. JCEpop standard size
+
+    870px x 522px
+
+2. image width standard
+
+    640px
+
+3. Element anywhere (younique code)
+
+    {yoonique_item: 611 element: Text}
+
+4. image size for the banner
+
+    1025 x 284
+
+5. image size for the teaser
+
+    760 x 220
+    
+6. youtube autoplay, put at the end of the link of single video embed
 
     ?autoplay=1 
 
-2. youtube autoplay, put at the end of the link of playlist video embed
+7. youtube autoplay, put at the end of the link of playlist video embed
 
     &amp;autoplay=1
 
-3. insert zoo article using shortcode
+8. insert zoo article using shortcode
 
     {zooitem:145 text: Increasing impact: a checklist}
     
     {zooitem:611 text: Read more...}
 
-4. id name for factsheet printing header
+9. id name for factsheet printing header
 
     id="factsheetstyling"
-
-5. JCEpop standard size
-
-    870px x 522px
-
-6. image width standard
-
-    640px
-
-7. younique code
-
-    {yoonique_item: 611 element: Text}
-
-8. image size for the banner
-
-    1025 x 284
-
-9. image size for the teaser
-
-    760 x 220
