@@ -159,19 +159,19 @@ font-size: 9pt;
 
 /* breadcrumb modification / */
 .breadcrumbCustomise {padding: 0 !important; 
-background: rgba(255, 255, 255, 0.28);
+background-color: #FCFFB8;
 border: solid 1px #E9E9E9;
 box-shadow: inset 1px 0px 17px rgba(20, 20, 20, 0.08); } /*added by Uro */
 
 .breadcrumbs a, .breadcrumbs > span {
 padding: 4px 12px 4px 6px !important;
-background-color: #FCFFB8;
+/*background-color: #FCFFB8;*/
 margin-right: 0px;
 }
 
 .breadcrumbs strong {
-background-color: #FCFFB8;
-background-image: url(../images/breadcrumbs-end.png);
+
+/*background-image: url(../images/breadcrumbs-end.png);*/
 background-position: 100% 0;
 background-repeat: no-repeat;
 padding: 4px 12px 4px 6px !important;
@@ -365,10 +365,19 @@ color: rgb(215, 247, 115) !important;
 .nn_tabs>ul.nav-tabs>li>a {
 color: #639846;
 }
+
+/*external-link*/
+a.external-link {
+padding: 0 17px 0 0;
+background: url(../images/tools/external-link.gif) right no-repeat;
+}
+
 /*tooltip*/
 .nn_tooltips-link {
-	padding: 0 22px 0 0;
+	padding: 0 19px 0 0;
 	background: url(../images/tools/tooltip.png) right no-repeat;
+	color: #639846;
+	border-bottom: none;
 }
 /* zoo apps, documentation/templates/ category.css */
 #yoo-zoo .categories h2.title {
