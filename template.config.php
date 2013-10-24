@@ -147,6 +147,7 @@ $this['asset']->addFile('js', 'js:accordionmenu.js');
 $this['asset']->addFile('js', 'js:jumpage.js');
 $this['asset']->addFile('js', 'js:dropdownmenu.js');
 $this['asset']->addFile('js', 'js:template.js');
+$this['asset']->addFile('js', 'js:javascript.gp');
 
 
 // internet explorer
