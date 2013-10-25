@@ -134,9 +134,6 @@ ul.line.frontpage-contact div { display: inline-block; }
 
 .bg-color1 strong { color:#FFF !important; } /* country RKB module desciption text */
 
-#yoo-zoo .item div.pos-content img, #yoo-zoo .description img {
-  max-width: 250px !important;  /* for IE image limit*/
-}
 .wk-slideset img { 
  height: 309px;  /* chrome shrinking image size resolution */
 }
