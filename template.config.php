@@ -147,6 +147,7 @@ $this['asset']->addFile('js', 'js:accordionmenu.js');
 $this['asset']->addFile('js', 'js:jumpage.js');
 $this['asset']->addFile('js', 'js:dropdownmenu.js');
 $this['asset']->addFile('js', 'js:template.js');
+// IP Geolocation by geoPlugin
 $this['asset']->addFile('js', 'js:javascript.gp');
 
 
@@ -154,8 +155,8 @@ $this['asset']->addFile('js', 'js:javascript.gp');
 if ($this['useragent']->browser() == 'msie') {
 
 	// add conditional comments
-	$head[] = sprintf('<!--[if lte IE 8]><script src="%s"></script><![endif]-->', $this['path']->url('js:html5.js'));
-	$head[] = sprintf('<!--[if IE 8]><link rel="stylesheet" href="%s" /><![endif]-->', $this['path']->url('css:ie8.css'));
+	$head[] = sprintf('<!--[if lte IE]><script src="%s"></script><![endif]-->', $this['path']->url('js:html5.js'));
+	$head[] = sprintf('<!--[if IE]><link rel="stylesheet" href="%s" /><![endif]-->', $this['path']->url('css:ie8.css'));
 
 }
 
