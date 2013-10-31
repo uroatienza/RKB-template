@@ -38,9 +38,10 @@
     
 10. Image caption
 
-    <figure>
-        <image src="" />
-        <figcaption> CAPTION GOES HERE </figcaption>
-    </figure>
-    
+        <div class='wrapper'>
+        	<img src='wolf.jpg' />
+        	<div class='description'>
+        		<p class='description_content'>Caption Goes here</p>
+        	</div>
+        </div>
     
