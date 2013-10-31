@@ -38,10 +38,7 @@
     
 10. Image caption
 
-        <div class='image_caption'>
-        	<img src='wolf.jpg' />
-        	<div class='caption_description'>
-        		<p class='caption_description_content'>Caption Goes here</p>
-        	</div>
-        </div>
+        <figure><img src="YOUR IMAGE LINK" />
+            <figcaption style="width: GET THE IMAGE WIDTH IN PX">CAPTION GOES HERE.</figcaption>
+        </figure>
     
