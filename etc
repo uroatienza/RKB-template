@@ -38,10 +38,10 @@
     
 10. Image caption
 
-        <div class='wrapper'>
+        <div class='image_caption'>
         	<img src='wolf.jpg' />
-        	<div class='description'>
-        		<p class='description_content'>Caption Goes here</p>
+        	<div class='caption_description'>
+        		<p class='caption_description_content'>Caption Goes here</p>
         	</div>
         </div>
     
