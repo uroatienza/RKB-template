@@ -35,3 +35,12 @@
 9. id name for factsheet printing header
 
     id="factsheetstyling"
+    
+10. Image caption
+
+    <figure>
+        <image src="" />
+        <figcaption> CAPTION GOES HERE </figcaption>
+    </figure>
+    
+    
