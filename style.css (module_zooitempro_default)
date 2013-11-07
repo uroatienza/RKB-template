@@ -1,0 +1,8 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+/* Only Phones (Portrait) */
+
+.zoo-itempro-default {width:45%;float:left; padding: 10px;overflow: hidden;}
+
+@media (max-width: 479px) {
+.zoo-itempro-default {width:100%; float:none;}
+}
