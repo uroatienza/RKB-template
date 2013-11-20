@@ -162,9 +162,9 @@ padding: 5px;
 
 /* breadcrumb modification / */
 .breadcrumbCustomise {padding: 0 !important; 
-background-color: #FCFFB8;
-border: solid 1px #97C09A;
-box-shadow: inset 1px 0px 17px rgba(20, 20, 20, 0.08); } /*added by Uro */
+background: none;
+border: none;
+/*box-shadow: inset 1px 0px 17px rgba(20, 20, 20, 0.08);*/ } /*added by Uro */
 
 .breadcrumbs a, .breadcrumbs > span {
 padding: 4px 12px 4px 6px !important;
