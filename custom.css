@@ -133,6 +133,10 @@ ul.line.frontpage-contact div { display: inline-block; }
 }
 /*------------------------------------------------ URO CUSTOMISE START----------------------------------------------------*/
 
+.mod-box-grey {
+box-shadow: none;
+}
+
 .bg-color1 strong { color:#FFF !important; } /* country RKB module desciption text */
 
 .wk-slideset img { 
