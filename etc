@@ -46,7 +46,7 @@
         on figcaption if image is aligned right or left.
         see example below.
         
-        <figcaption style="width: GET THE IMAGE WIDTH IN PX; width: 200px; float: right; clear: both;">CAPTION GOES HERE.</figcaption>
+        <figcaption style="width: GET THE IMAGE WIDTH IN PX; float: right; clear: both;">CAPTION GOES HERE.</figcaption>
         
         
 11. Make slider open from links to another page.
