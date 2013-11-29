@@ -29,25 +29,24 @@ $this->setHeadData($head);
     
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/screen.css" type="text/css" />
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    $(function(){
-	var factsheetstyling = $('#factsheetstyling');
-	if (factsheetstyling.length === 0){
-		return;
-	}else {
-		$('.header').append("<img class='factsheetImages' src='<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/header.png'/>");
-	}
-	
-});
-    </script>
 
+    
+    <script type="text/javascript">
+	    $(function(){
+		var factsheetstyling = $('#factsheetstyling');
+		if (factsheetstyling.length === 0){
+			return;
+		}else {
+			$('.header').append("<img class='factsheetImages' src='<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/header.png'/>");
+		}
+		});
+    </script>
     <style type="text/css">
     	.factsheetImages {width:100%;}
-	.element-print-button {display: none !important;}
     </style>
 
 </head>
-<body class="contentpane" onload="window.print();return false;">
+<body class="contentpane">
 <div class="header"></div>
 	<jdoc:include type="message" />
     <jdoc:include type="component" />
