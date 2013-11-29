@@ -40,12 +40,14 @@ $this->setHeadData($head);
 	
 });
     </script>
+
     <style type="text/css">
-    	.factsheetImages { width:100%;
-		}
+    	.factsheetImages {width:100%;}
+	.element-print-button {display: none !important;}
     </style>
+
 </head>
-<body class="contentpane">
+<body class="contentpane" onload="window.print();return false;">
 <div class="header"></div>
 	<jdoc:include type="message" />
     <jdoc:include type="component" />
