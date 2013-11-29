@@ -133,6 +133,11 @@ ul.line.frontpage-contact div { display: inline-block; }
 }
 /*------------------------------------------------ URO CUSTOMISE START----------------------------------------------------*/
 
+#yoo-zoo .items div.teaser-item { /* teasers margin */
+overflow: hidden;
+padding: 0px 10px 20px 30px;
+}
+
 .mod-box-grey {
 box-shadow: none;
 }
