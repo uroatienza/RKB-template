@@ -401,9 +401,13 @@ background: url(../images/tools/external-link.gif) right no-repeat;
 .element-itemprint a.element-print-button {
 float: right;
 display: inline-block;
-width: 16px;
-height: 16px;
-border:none;
+width: auto;
+height: auto;
+border: 1px solid #DBDBDB;
+border-radius: 0;
+padding:0 10px 0 25px;
+background: #FBFBFB url(../images/printer.png) 5px 2px no-repeat !important;
+box-shadow: none;
 }
 /* fact sheet author */
 #yoo-zoo .item div.pos-description .last {
