@@ -64,7 +64,7 @@ class ElementItemPrint extends Element {
 				$this->app->document->addStyleDeclaration('#comments { display:none; }');
 			}
 
-			return '<a class="element-print-button" onclick="window.print(); return false;" href="#"></a>';
+			return '<a class="element-print-button" onclick="window.print(); return false;" href="#">&nbsp</a>';
 
 		} else {
 
