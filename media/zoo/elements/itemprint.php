@@ -64,6 +64,7 @@ class ElementItemPrint extends Element {
 				$this->app->document->addStyleDeclaration('#comments { display:none; }');
 			}
 
+
 			return '<a class="element-print-button" onclick="window.print(); return false;" href="#">&nbsp</a>';
 
 		} else {
@@ -71,6 +72,10 @@ class ElementItemPrint extends Element {
 			$this->app->html->_('behavior.modal', 'a.modal');
 			$text  = $params->get('showicon') ? '' : JText::_('Print Friendly');
 			$class = $params->get('showicon') ? 'modal element-print-button' : 'modal';
+
+			//hide print button whenever on jcepopup display -- by uro
+			$this->app->document->addStyleDeclaration('.element-itemprint a.element-print-button { display: none; }');
+			//
 
 			return '<a href="'.JRoute::_($this->app->route->item($this->_item, false).'&amp;tmpl=component&amp;print=1').'" title="'.JText::_('Print').'" rel="{handler: \'iframe\', size: {x: 850, y: 500}, }" class="'.$class.'" >Print Friendly</a>';
 		}
