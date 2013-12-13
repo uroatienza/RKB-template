@@ -133,6 +133,17 @@ ul.line.frontpage-contact div { display: inline-block; }
 }
 /*------------------------------------------------ URO CUSTOMISE START----------------------------------------------------*/
 
+ul.zoo-list > li {
+border-top: 1px solid rgba(221, 221, 221, 0.26); /* lighten the border line of zoo modules. */
+}
+
+.yoo-zoo img {
+max-width: 100%;
+height: auto;
+padding: 10px;
+background: rgba(121, 106, 94, 0.27);
+}
+
 #yoo-zoo .items div.teaser-item { /* teasers margin */
 overflow: hidden;
 padding: 0px 10px 20px 30px;
@@ -394,6 +405,13 @@ background: url(../images/tools/external-link.gif) right no-repeat;
 /* zoo apps, documentation/templates/ category.css */
 #yoo-zoo .categories h2.title {
 	text-transform: capitalize;
+	clear: both;
+	margin: 0px;
+	line-height: 30px;
+	font-size: 23px;
+	letter-spacing: -1px;
+	font-weight: normal;
+	color: #464646;
 }
 #yoo-zoo .categories a.teaser-image {
 	float: none;
@@ -414,6 +432,8 @@ padding:0 10px 0 25px;
 background: #FBFBFB url(../images/printer.png) 5px 2px no-repeat !important;
 box-shadow: none;
 }
+
+
 /* fact sheet author */
 #yoo-zoo .item div.pos-description .last {
 margin-top: 20px;
