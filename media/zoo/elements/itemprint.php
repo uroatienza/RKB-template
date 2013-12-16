@@ -77,7 +77,7 @@ class ElementItemPrint extends Element {
 			$this->app->document->addStyleDeclaration('.element-itemprint a.element-print-button { display: none; }');
 			//
 
-			return '<a href="'.JRoute::_($this->app->route->item($this->_item, false).'&amp;tmpl=component&amp;print=1').'" title="'.JText::_('Print').'" rel="{handler: \'iframe\', size: {x: 850, y: 500}, }" class="'.$class.'" >Printer-Friendly</a>';
+			return '<a href="'.JRoute::_($this->app->route->item($this->_item, false).'&amp;tmpl=component&amp;print=1').'" title="'.JText::_('Printer-Friendly').'" rel="{handler: \'iframe\', size: {x: 850, y: 500}, }" class="'.$class.'" >Printer-Friendly</a>';
 		}
 	}
 
