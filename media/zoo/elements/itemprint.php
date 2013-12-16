@@ -70,14 +70,14 @@ class ElementItemPrint extends Element {
 		} else {
 
 			$this->app->html->_('behavior.modal', 'a.modal');
-			$text  = $params->get('showicon') ? '' : JText::_('Print Friendly');
+			$text  = $params->get('showicon') ? '' : JText::_('Printer-Friendly');
 			$class = $params->get('showicon') ? 'modal element-print-button' : 'modal';
 
 			//hide print button whenever on jcepopup display -- by uro
 			$this->app->document->addStyleDeclaration('.element-itemprint a.element-print-button { display: none; }');
 			//
 
-			return '<a href="'.JRoute::_($this->app->route->item($this->_item, false).'&amp;tmpl=component&amp;print=1').'" title="'.JText::_('Print').'" rel="{handler: \'iframe\', size: {x: 850, y: 500}, }" class="'.$class.'" >Print Friendly</a>';
+			return '<a href="'.JRoute::_($this->app->route->item($this->_item, false).'&amp;tmpl=component&amp;print=1').'" title="'.JText::_('Print').'" rel="{handler: \'iframe\', size: {x: 850, y: 500}, }" class="'.$class.'" >Printer-Friendly</a>';
 		}
 	}
 
