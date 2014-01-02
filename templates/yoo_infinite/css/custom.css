@@ -161,7 +161,13 @@ box-shadow: none;
 
 .wk-slideset img { 
  height: 309px;  /* chrome shrinking image size resolution */
+ max-width: none;
 }
+
+.wk-slideset ul li {
+	background: none !important; /* remove list background in slideset embedded in yoo item page */
+}
+
 /* elearning/factsheets apps teaser h2 CSS override. from media/zoo/app/product/tem/default/assets/css/category.css*/
 h2.pos-title { color:#639846; font-size: 25px !important; line-height: 27px !important; font-weight: normal !important;}
 
