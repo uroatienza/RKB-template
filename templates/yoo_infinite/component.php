@@ -29,6 +29,9 @@ $this->setHeadData($head);
     
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/screen.css" type="text/css" />
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery.js" type="text/javascript"></script>
+    <style type="text/css">
+    	iframe { border: none !important;}
+	</style>
 
     
     <script type="text/javascript">
