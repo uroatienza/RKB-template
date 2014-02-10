@@ -144,8 +144,9 @@ border-top: 1px solid rgba(221, 221, 221, 0.26); /* lighten the border line of z
 .yoo-zoo img {
 max-width: 100%;
 height: auto;
-padding: 10px;
-background: rgba(121, 106, 94, 0.27);
+margin-top: 10px;
+border: solid 1px #e1e1e1;
+/*background: rgba(121, 106, 94, 0.27); */
 }
 
 #yoo-zoo .item div.pos-content h2 { /* override item.css line 45, generic h2 style */
@@ -240,7 +241,7 @@ display: none;
 .block-top-a.wrapper.max-width100 { max-width: 1076px; } /*to override home page banner 100% layout / edited by uro*/
 
 /* layout.css modification line 44 */
-#block-bottom-c {background: #FEFFEB url(../images/rice-bg-footer.png) bottom repeat-x;color:#984706;} /* added by Uro */
+#block-bottom-c {background: #FFF url(../images/rice-bg-footer.jpg) bottom repeat-x;color:#984706;} /* added by Uro */
 #block-bottom-c li, #block-bottom-c p {color:#585858 !important;line-height: 13px;margin-bottom: 10px;} /* added by Uro */
 #block-bottom-c a, #block-bottom-c a:hover {color:#585858 !important;} /* added by Uro */
 #block-bottom-c ul,  #block-bottom-c ul {padding: 0;} /* added by Uro */
@@ -312,9 +313,9 @@ box-shadow: inset 1px 0px 17px rgba(20, 20, 20, 0.08);}
 /* style.min.css. line 2. of media/slider/css/style.min.css */
 .accordion-toggle img {
 padding: 0 !important;
-background: none !important;
 margin: 0 !important;
 vertical-align: middle !important;
+border: none !important;
 }
 
 /*menu font size*/
@@ -350,7 +351,7 @@ vertical-align: middle !important;
 #menubar {
 	margin-bottom:	-6px;
 	float: left;
-	margin-left: 10%;
+	margin-left: 20%;
 }
 /*layout.css line 101  */
 #countryMenu {
@@ -487,7 +488,7 @@ border-top: none;
 
 /* for steady top menu even at max width */
 @media (min-width: 1617px) {
- #menubar { margin-top: 100px;}
+ #menubar { margin-top: 100px; margin-left: 0 !important; }
 }
 @media (max-width: 767px) {
 
