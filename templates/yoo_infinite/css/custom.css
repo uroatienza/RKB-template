@@ -145,7 +145,7 @@ border-top: 1px solid rgba(221, 221, 221, 0.26); /* lighten the border line of z
 max-width: 100%;
 height: auto;
 margin-top: 5px;
-border: solid 1px #e1e1e1;
+border: solid 2px rgba(121, 106, 94, 0.27);
 /*background: rgba(121, 106, 94, 0.27); */
 }
 
@@ -426,7 +426,7 @@ background: url(../images/tools/external-link.gif) right no-repeat;
 }
 /* zoo apps, documentation/templates/ category.css */
 #yoo-zoo .categories h2.title {
-	text-transform: capitalize;
+	text-transform: none;
 	clear: both;
 	margin: 0px;
 	line-height: 30px;
