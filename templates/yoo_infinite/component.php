@@ -40,7 +40,7 @@ $this->setHeadData($head);
 		if (factsheetstyling.length === 0){
 			return;
 		}else {
-			$('.header').append("<img class='factsheetImages' src='<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/header.png'/>");
+			$('.header').append("<img class='factsheetImages' src='<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/fs-header.jpg'/>");
 		}
 		});
     </script>
