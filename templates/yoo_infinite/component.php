@@ -40,18 +40,21 @@ $this->setHeadData($head);
 		if (factsheetstyling.length === 0){
 			return;
 		}else {
-			$('.header').append("<img class='factsheetImages' src='<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/fs-header.jpg'/>");
+			$('.fs-header').append("<img class='factsheetImages-header' src='<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/fs-header.jpg'/>");
+			$('.fs-footer').append("<img class='factsheetImages-footer' src='<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/fs-footer.jpg'/>");
 		}
 		});
     </script>
     <style type="text/css">
-    	.factsheetImages {width:100%;}
+    	.factsheetImages-header {width:100%;}
+    	.factsheetImages-footer {width:100%;}
     </style>
 
 </head>
 <body class="contentpane">
-<div class="header"></div>
+<div class="fs-header"></div>
 	<jdoc:include type="message" />
     <jdoc:include type="component" />
+<div class="fs-footer"></div>
 </body>
 </html>
