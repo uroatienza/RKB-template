@@ -76,7 +76,7 @@ a.jcepopup strong {color: #639846;}
 .module-top-position {border: none !important; margin-bottom: -40px;}
 /*module main icon Pre-Growth-Postharvest and Tools-guides-manual */
 .module-icon, .module-icon2 {background: none;border: none;text-align: center;}
-.module-icon {padding: 0;}
+.module-icon {padding: 10px;width: 300px;float: left;}
 .module-icon2 {padding: 30px 0 0 0;}
 .module-icon h1{color: #494949;text-align: center;margin: 0;padding: 10px;}
 .module-icon div{background: #ededed;  -webkit-transition: all 0.4s;  -moz-transition: all 0.4s;  transition: all 0.4s;}
@@ -126,6 +126,7 @@ a.jcepopup strong {color: #639846;}
 /* zoo apps, documentation/templates/ category.css */
 #yoo-zoo .categories h2.title {text-transform: none; clear: both; margin: 0; line-height: 30px; font-size: 25px; letter-spacing: -1px; font-weight: normal; color: #464646;}
 #yoo-zoo .categories a.teaser-image {float: none;}
+#yoo-zoo .item div.pos-content ul li {padding-left: 0;background: none;list-style: initial;}
 
 ul.zoo-list > li {border-top: 1px solid rgba(36, 36, 36, 0.26); /* lighten the border line of zoo modules. */}
 
@@ -137,7 +138,7 @@ ul.zoo-list > li {border-top: 1px solid rgba(36, 36, 36, 0.26); /* lighten the b
 
 /* breadcrumb modification / */
 .breadcrumbCustomise {padding: 0 !important; background: none;}
-.breadcrumbs a, .breadcrumbs strong {background: #DBDBDB url(../images/breadcrumbs.png);background-repeat: no-repeat;}
+.breadcrumbs a, .breadcrumbs strong, .breadcrumbs > span {background: #DBDBDB url(../images/breadcrumbs.png);background-repeat: no-repeat;}
 .breadcrumbs a, .breadcrumbs > span {padding: 4px 18px 5px 6px !important; margin-right: 0; background-position: 100% 0; color: black;}
 .breadcrumbs strong {background-position: 100% 100%; padding: 4px 18px 5px 6px !important;}
 
@@ -146,7 +147,8 @@ ul.zoo-list > li {border-top: 1px solid rgba(36, 36, 36, 0.26); /* lighten the b
 .wk-slideshow-infinite .caption h1 + span, .wk-slideshow-infinite .caption h1 {background: none !important; padding: 0 20px; text-shadow: 0 0 5px rgba(0, 0, 0, 0.47); line-height: 35px; margin: 0;}
 .wk-slideshow-infinite .caption h1 + span{font-size:38px; font-weight: bolder;}
 .wk-slideshow-infinite .caption h1 {font-size:28px; font-weight: lighter;}
-.wk-slideshow-infinite .caption {bottom: 10%; left: 50% !important; right: 10%;}
+.wk-slideshow-infinite .caption {bottom: 35%; left: 50% !important; right: 10%;}
+.wk-slideshow-infinite .pre-gro-post-button {width: 960px;display: block;left:0;right:0;margin-left:auto;margin-right:auto;z-index: 1000;position:absolute;bottom:10%;}
 /*slideshow tabs css. at media/widgetkit/style.css */
 .wk-slideshow-tabs-steam .nav li {margin: 0 0 0 5px;border-radius:2px; background: rgba(204, 204, 204, 0.34); box-shadow: 0 2px 0 rgba(0,0,0,0.1); color: #fff;}
 /*slideshow style.css. at media/widgetkit/slideshow/default/style.css */
@@ -211,6 +213,7 @@ ul.zoo-list > li {border-top: 1px solid rgba(36, 36, 36, 0.26); /* lighten the b
 
 /* style.min.css. line 2. of media/sliders/css/style.min.css */
 .accordion-toggle img {padding: 0 !important; margin: 0 !important; vertical-align: middle !important; border: none !important;}
+.accordion-toggle span {padding: 0 !important; margin: 0 !important; vertical-align: middle !important; border: none !important;}
 
 /*for icons */
 .custom-icon {background: none !important; padding: 0 !important;}
@@ -229,16 +232,16 @@ ul.zoo-list > li {border-top: 1px solid rgba(36, 36, 36, 0.26); /* lighten the b
 .nn_tabs>ul.nav-tabs>li.green>a:hover, .nn_tabs>ul.nav-tabs>li.green.active>a {border-top-color: #7ab800;}
 .nn_tabs .nav-tabs>li.active>a, .nn_tabs .nav-tabs>li.active>a:hover {color: #FFF; background-color: #494949; border: 1px solid #ddd; border-bottom-color: transparent; cursor: default;}
 /*style.min.css at media/tabs/css/*/
-.nn_tabs>ul.nav-tabs>li>a, .nn_tabs>ul.nav-tabs>li>a:hover  {color: #639846;}
+.nn_tabs>ul.nav-tabs>li>a, .nn_tabs>ul.nav-tabs>li>a:hover  {color: #427730;}
 /*tooltip*/
-.nn_tooltips-link {padding: 0 19px 0 0; background: url(../images/tools/tooltip.png) right no-repeat; color: #427730; border-bottom: none;}
+.nn_tooltips-link {padding: 0 19px 0 0; background: url(../images/tools/tooltip.png) right no-repeat; color: #427730;}
 
 /* media/sliders/css/style.min.css line 1 */
-.nn_sliders>.accordion-group.green {border-top-color: #7ab800;}
+.nn_sliders>.accordion-group.green {border-top-color: #7ab800 !important;}
 /* media/sliders/css/style.min.css line 1 */
 .nn_sliders>.accordion-group.green:hover, .nn_sliders>.accordion-group.green.active {border-top-color: #427730;}
 /* media/sliders/css/style.min.css line 1 */
-.nn_sliders>.accordion-group.active>.accordion-heading>a.accordion-toggle, .nn_sliders>.accordion-group>.accordion-heading>a.accordion-toggle:hover {color: #427730;}
+.nn_sliders>.accordion-group.active>.accordion-heading>a.accordion-toggle, .nn_sliders>.accordion-group>.accordion-heading>a.accordion-toggle:hover {color: #427730 !important;}
 
 /* ITEM Feeds */
 .newsfeedstyle-box ul{margin-left: -40px;}
@@ -265,7 +268,8 @@ box-shadow: none;}
 }
 @media (max-width: 560px) {.wk-slideshow-infinite .caption h1 + span, .wk-slideshow-infinite .caption h1 {font-size: 20px; line-height: 20px;} .wk-slideshow-infinite .caption {left: 40% !important;right: 0 !important;}}/*home "Learn about best practices" fix for small screen */
 @media (min-width: 767px) and (max-width: 946px) { #header {background: url(../images/menubg.png) 0 110px repeat-x;}}
-@media (max-width: 904px) {#irrilogo {position:absolute; right: 0; margin-top: -2px; } #menubar {margin-bottom: 0;}}
+@media (max-width: 904px) {#irrilogo {position:absolute; right: 0; margin-top: -2px; } #menubar {margin-bottom: 0;}.wk-slideshow-infinite .pre-gro-post-button {width: 100%;position:relative;}.module-icon {width: 100%;float: none;}
+.wk-slideshow-infinite .caption {bottom: 60%;}}
 @media (max-width: 1024px) {/*layout.css line 77  */ #menubar {margin-left: auto;} }
 @media (max-width: 1288px) {/*fix menu from moving */ #menu {margin-top: -5px !important;}}
 @media (max-width: 800px) {/*CG standard */ .menu-dropdown a.level1 > span, .menu-dropdown span.level1 > span {padding: 2px 15px 15px 15px;}}
