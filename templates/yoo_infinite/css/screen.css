@@ -23,6 +23,7 @@ iframe { border: none !important;}
 #yoo-zoo .item div.pos-content ul li {
 padding-left: 0 !important;
 background: none !important;
+list-style: initial !important;
 }
 
 .yoo-zoo img {
@@ -30,7 +31,7 @@ padding: 0 !important;
 background: none !important;
 }
 
-/** fact sheet author override - edit URO**/
+/** fact sheet author override **/
 #yoo-zoo .item div.pos-description .last{
 	clear: both !important;
 }
