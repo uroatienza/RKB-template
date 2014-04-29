@@ -69,7 +69,7 @@ class ElementItemPrint extends Element {
 
 		} else {
 
-			$this->app->html->_('behavior.modal', 'a.modal');
+			//$this->app->html->_('behavior.modal', 'a.modal'); //line removed to open the print in a new window
 			$text  = $params->get('showicon') ? '' : JText::_('Printer-Friendly');
 			$class = $params->get('showicon') ? 'modal element-print-button' : 'modal';
 
