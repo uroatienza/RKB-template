@@ -39,7 +39,7 @@ $css_class = $this->application->getGroup().'-'.$this->template->name;
 			<!--added by uro to show print-friently in category -->
 		<div class="pos-media media" style="float:right;">
 			<div class="element element-itemprint first last">
-			<a id="category-print" class="element-print-button" href="<?php echo JURI::current().'?tmpl=component-category&amp;print=1' ?>" title="View the printer-friendly page" rel="{handler: \'iframe\', size: {x: 850, y: 500}, }" class="modal element-print-button" target="_blank" >Printer-Friendly</a>
+			<a id="category-print" class="element-print-button" href="<?php echo JURI::current().'?tmpl=component-category&amp;print=1' ?>" title="view print-friendly or save page" rel="{handler: \'iframe\', size: {x: 850, y: 500}, }" class="modal element-print-button" target="_blank" >&nbsp;</a>
 			<a id="category-print-go" class="element-print-button" onclick="window.print(); return false;" href="#" style="display:none;">Print this page</a>
 			</div>
 		</div>
