@@ -145,7 +145,7 @@ ul.zoo-list > li {border-top: 1px solid rgba(36, 36, 36, 0.26); /* lighten the b
 /* slideshow tab */
 .wk-slideshow-tabs-steam .nav {display: none;}
 .wk-slideshow-infinite .caption h1 + span, .wk-slideshow-infinite .caption h1 {background: none !important; padding: 0 20px; text-shadow: 0 0 5px rgba(0, 0, 0, 0.47); line-height: 35px; margin: 0;}
-.wk-slideshow-infinite .caption h1 + span{font-size:38px; font-weight: bolder;}
+.wk-slideshow-infinite .caption h1 + span{font-size:38px; font-weight: normal;}
 .wk-slideshow-infinite .caption h1 {font-size:28px; font-weight: lighter;}
 .wk-slideshow-infinite .caption {bottom: 35%; left: 50% !important; right: 10%;}
 .wk-slideshow-infinite .pre-gro-post-button {width: 960px;display: block;left:0;right:0;margin-left:auto;margin-right:auto;z-index: 1000;position:absolute;bottom:10%;}
@@ -225,7 +225,7 @@ ul.zoo-list > li {border-top: 1px solid rgba(36, 36, 36, 0.26); /* lighten the b
 #irrilogo img, .irrilogo {padding:0 !important; margin:0 !important;}
 
 /* media/tabs/css/style.min.css line 1 */
-.nn_tabs .nav-tabs>li {padding: 0 !important; background: none !important;}
+.nn_tabs .nav-tabs>li {padding: 0 !important; background: none !important; list-style: none !important;}
 /* media/tabs/css/style.min.css line 1 */
 .nn_tabs>ul.nav-tabs>li.green>a, .nn_tabs>ul.nav-tabs>li.green>a:hover {border-top: 5px solid #7ab800;}
 /* media/tabs/css/style.min.css line 1 */
@@ -247,7 +247,7 @@ ul.zoo-list > li {border-top: 1px solid rgba(36, 36, 36, 0.26); /* lighten the b
 .newsfeedstyle-box ul{margin-left: -40px;}
 
 /*item print */
-.element-itemprint a.element-print-button {float: right;display: inline-block;width: auto;height: auto;border: 1px solid #DBDBDB;border-radius: 0;padding:0 10px 0 25px;background: #FBFBFB url(../images/printer.png) 5px 2px no-repeat !important;
+.element-itemprint a.element-print-button {color: #fff;float: right;display: inline-block;width: 120px;height: auto;border: none;border-radius: 0;padding:0 10px 0 25px;background: #494949 url(../images/printer.png) no-repeat !important;
 box-shadow: none;}
 
 /*manual <li>*/
