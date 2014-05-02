@@ -293,4 +293,8 @@ box-shadow: none;}
 .bottom-nav-next {float: right; font-weight: bold;}
 .bottom-nav-next div {padding: 0 53px 0 0;margin: 0px;text-align: center;}
 .bottom-nav-next img {position: absolute;right: 15px;}
+
+/* google search result page */
+.gsc-input {color:#CCCCCC !important;}
+.gsib_a {padding: 1px 10px !important;}
 /*------------------------------------------------ URO CUSTOMISE END----------------------------------------------------*/
