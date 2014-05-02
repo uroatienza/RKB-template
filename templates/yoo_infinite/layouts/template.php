@@ -1,3 +1,11 @@
+<?php
+/**
+* @package   yoo_infinite
+* @author    YOOtheme http://www.yootheme.com
+* @copyright Copyright (C) YOOtheme GmbH
+* @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
+*/
+
 // get template configuration
 include($this['path']->path('layouts:template.config.php'));
 	
@@ -6,6 +14,18 @@ include($this['path']->path('layouts:template.config.php'));
 <html lang="<?php echo $this['config']->get('language'); ?>" dir="<?php echo $this['config']->get('direction'); ?>">
 <head>
 <?php echo $this['template']->render('head'); ?>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-1108376-8']);
+_gaq.push(['_setDomainName', 'www.knowledgebank.irri.org']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
 </head>
 
 <body id="page" class="page <?php echo $this['config']->get('body_classes'); ?>" data-config='<?php echo $this['config']->get('body_config','{}'); ?>'>
@@ -78,6 +98,17 @@ include($this['path']->path('layouts:template.config.php'));
 		</div>
 	</div>
 	<?php endif; ?>
+
+	<?php if ($this['modules']->count('top-c')) : ?>
+	<div id="block-top-c" class="<?php echo $this['config']->get('top-c-bg'); ?>">
+		<div class="block-top-c wrapper <?php if($this['config']->get('block-top-c')) echo 'max-width'.$this['config']->get('block-top-c'); ?>">
+		
+			<section id="top-c" class="grid-block"><?php echo $this['modules']->render('top-c', array('layout'=>$this['config']->get('top-c'))); ?></section>
+			
+
+		</div>
+	</div>
+	<?php endif; ?>
 				
 	<?php if ($this['modules']->count('innertop + innerbottom + sidebar-a + sidebar-b') || $this['config']->get('system_output')) : ?>			
 	<div id="block-main" class="<?php echo $this['config']->get('main-bg'); ?>">	
@@ -117,6 +148,18 @@ include($this['path']->path('layouts:template.config.php'));
 			</div>
 			
 			<!-- main end -->
+
+		</div>
+	</div>
+	<?php endif; ?>
+
+	<?php if ($this['modules']->count('bottom')) : ?>
+	<div id="block-bottom" class="<?php echo $this['config']->get('bottom-bg'); ?>">
+		<div class="block-bottom wrapper <?php if($this['config']->get('block-bottom')) echo 'max-width'.$this['config']->get('block-bottom'); ?>">
+			
+			
+			<section id="bottom" class="grid-block"><?php echo $this['modules']->render('bottom', array('layout'=>$this['config']->get('bottom'))); ?></section>
+			
 
 		</div>
 	</div>
