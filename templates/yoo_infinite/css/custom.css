@@ -264,7 +264,7 @@ box-shadow: none;}
   #header {margin-bottom: 20px; background: none;} 
   #block-header {border-bottom: 4px solid #669933;}
   /* System */
-  .searchbox {border: none;}
+  .searchbox {border: none;} #yoo-zoo .items div.media-left {float: none;}
 }
 @media (max-width: 560px) {.wk-slideshow-infinite .caption h1 + span, .wk-slideshow-infinite .caption h1 {font-size: 20px; line-height: 20px;} .wk-slideshow-infinite .caption {left: 40% !important;right: 0 !important;}}/*home "Learn about best practices" fix for small screen */
 @media (min-width: 767px) and (max-width: 946px) { #header {background: url(../images/menubg.png) 0 110px repeat-x;}}
