@@ -144,7 +144,7 @@ ul.zoo-list > li {border-top: 1px solid rgba(36, 36, 36, 0.26); /* lighten the b
 
 /* slideshow tab */
 .wk-slideshow-tabs-steam .nav {display: none;}
-.wk-slideshow-infinite .caption h1 + span, .wk-slideshow-infinite .caption h1 {background: none !important; padding: 0 20px; text-shadow: 0 0 5px rgba(0, 0, 0, 0.47); line-height: 35px; margin: 0;}
+.wk-slideshow-infinite .caption h1 + span, .wk-slideshow-infinite .caption h1 {background: none !important; padding: 0 20px;/* text-shadow: 0 0 5px rgba(0, 0, 0, 0.47); */line-height: 35px; margin: 0;}
 .wk-slideshow-infinite .caption h1 + span{font-size:38px; font-weight: normal;}
 .wk-slideshow-infinite .caption h1 {font-size:28px; font-weight: lighter;}
 .wk-slideshow-infinite .caption {bottom: 35%; left: 50% !important; right: 10%;}
