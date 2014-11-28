@@ -50,6 +50,8 @@ ul.line.frontpage-contact div {display:inline-block;}
 	.frontpage-check.width50 {width: 100%;}
 }
 /*------------------------------------------------ URO CUSTOMISE START----------------------------------------------------*/
+li.level1.item508 {display:none !important;} /*hide About RKB on the main menu across*/
+div#xmap ul.level_2 ul.level_3 {display:none !important;} /*hide Xmap level 3 menu*/
 
 h2{letter-spacing: -1px;}
 
@@ -131,10 +133,11 @@ a.jcepopup strong {color: #639846;}
 ul.zoo-list > li {border-top: 1px solid rgba(36, 36, 36, 0.26); /* lighten the border line of zoo modules. */}
 
 .mod-box-grey {box-shadow: none;}
-.mod-box-color1 {border-color: #5C5C5C !important;background: #494949 !important;box-shadow: none !important;}
+.mod-box-color1 {border-color: transparent !important;background: #494949 !important;box-shadow: none !important;}
 .mod-box-transparent25 {background: none !important;}
 /*Related video title also fix for IE*/
-.mod-box-grey h3 {margin: 0 0 10px 0 !important;color: #323232 !important;}
+.mod-box-grey h3 {margin: 0 0 10px 0 !important;color: #323232 !important;font-weight: bold;}
+.mod-box .module-title {font-weight: bold;}
 
 /* breadcrumb modification / */
 .breadcrumbCustomise {padding: 0 !important; background: none;}
@@ -144,7 +147,7 @@ ul.zoo-list > li {border-top: 1px solid rgba(36, 36, 36, 0.26); /* lighten the b
 
 /* slideshow tab */
 .wk-slideshow-tabs-steam .nav {display: none;}
-.wk-slideshow-infinite .caption h1 + span, .wk-slideshow-infinite .caption h1 {background: none !important; padding: 0 20px;/* text-shadow: 0 0 5px rgba(0, 0, 0, 0.47); */line-height: 35px; margin: 0;}
+.wk-slideshow-infinite .caption h1 + span, .wk-slideshow-infinite .caption h1 {background: none !important; padding: 0 20px;/* text-shadow: 0 0 5px rgba(0, 0, 0, 0.47);*/ line-height: 35px; margin: 0;}
 .wk-slideshow-infinite .caption h1 + span{font-size:38px; font-weight: normal;}
 .wk-slideshow-infinite .caption h1 {font-size:28px; font-weight: lighter;}
 .wk-slideshow-infinite .caption {bottom: 35%; left: 50% !important; right: 10%;}
@@ -198,7 +201,7 @@ ul.zoo-list > li {border-top: 1px solid rgba(36, 36, 36, 0.26); /* lighten the b
 /* menu.css sidebar  level1 line 151 */
 .menu-sidebar a.level1 > span {padding:5px 0 5px 0; color: #427730;}
 .menu-sidebar span.level1 {text-transform: capitalize;}
-.menu-sidebar li.level1 {list-style: none;}
+.menu-sidebar li.level1 {list-style: none; border-top: 1px solid rgba(36, 36, 36, 0.26) !important;}
 .menu-sidebar {padding: 0;}
 
 /* Smart Search module customise by Uro */
@@ -297,4 +300,12 @@ box-shadow: none;}
 /* google search result page */
 .gsc-input {color:#CCCCCC !important;}
 .gsib_a {padding: 1px 10px !important;}
+
+/* RKB Poll*/
+.sl_advpoll .sl_advpoll_body .sl_advpoll_answers label {font-size:35px !important;font-weight: normal !important;line-height: normal !important;text-align: left !important;color:#707070 !important;}  
+.sl_advpoll .sl_advpoll_body .sl_advpoll_question {font-size: 35px;text-align: left;}
+.sl_advpoll_answers input[type=checkbox] { -ms-transform: scale(2); /* IE */ -moz-transform: scale(2); /* FF */ -webkit-transform: scale(2); /* Safari and Chrome */ -o-transform: scale(2); /* Opera */ margin: 15px !important;
+}
+.sl_advpoll_buttons { -ms-transform: scale(2); /* IE */ -moz-transform: scale(2); /* FF */ -webkit-transform: scale(2); /* Safari and Chrome */ -o-transform: scale(2); /* Opera */  }
+.sl_advpoll {border:none !important;}
 /*------------------------------------------------ URO CUSTOMISE END----------------------------------------------------*/
