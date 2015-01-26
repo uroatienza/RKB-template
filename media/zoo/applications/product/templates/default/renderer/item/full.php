@@ -49,7 +49,7 @@ defined('_JEXEC') or die('Restricted access');
 		</div>
 		<?php endif; ?>
 	
-		<?php if ($this->checkPosition('title')) : ?>
+		<?php if ($this->checkPosition('title')) : ?> <!--added id="factsheetstyling" by uro for fs printing footer and header -->
 		<h1 class="pos-title" id="factsheetstyling"><?php echo $this->renderPosition('title'); ?></h1>
 		<?php endif; ?>
 	
