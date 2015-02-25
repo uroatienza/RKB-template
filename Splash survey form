@@ -18,6 +18,10 @@ background-color: rgb(255,255,255);
 background-color: rgb(255,255,255);margin-top:-50px;
 }
 
+.ss-required-asterisk {
+display: none;
+}
+
 .ss-footer, .ss-response-footer {
 background-color: rgb(255,255,255);
 }
@@ -356,9 +360,7 @@ by completing a short survey.">
 
 
 
-<div class="ss-form-container"><div class="ss-header-image-container"><div class="ss-header-image-image"><div class="ss-header-image-
-
-sizer"></div></div></div>
+<div class="ss-form-container"><div class="ss-header-image-container"><div class="ss-header-image-image"><div class="ss-header-image-sizer"></div></div></div>
 <div class="ss-top-of-page"><div class="ss-form-heading"><h1 class="ss-form-title" dir="ltr"> </h1>
 <div class="ss-form-desc ss-no-ignore-whitespace" dir="ltr">Please help us improve the content of our website <br>by completing a short survey.</div>
 
@@ -372,59 +374,46 @@ method="POST" id="ss-form" target="iframe_vrvopght" onsubmit="sent_vrvopght=true
 <div dir="ltr" class="ss-item ss-item-required ss-select"><div class="ss-form-entry">
 <label class="ss-q-item-label" for="entry_225507889"><div class="ss-q-title">First, let us know the nature of your work.
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-</div>
+<span class="ss-required-asterisk" aria-hidden="true">*</span></div>
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<select name="entry.225507889" id="entry_225507889" aria-label="First, let us know the nature of your work.  " aria-required="true" required=""><option 
-
-value=""></option>
-<option value="Farmer">Farmer</option> <option value="Extension (Government, NGO, Non-Profit, etc.)">Extension (Government, NGO, Non-Profit, etc.)</option> 
-
-<option value="Student">Student</option> <option value="Researcher">Researcher</option> <option value="Educator (Primary, Secondary, University)">Educator 
-
-(Primary, Secondary, University)</option> <option value="Other">Other</option></select>
+<select name="entry.225507889" id="entry_225507889" aria-label="First, let us know the nature of your work.  " aria-required="true" required><option value=""></option>
+<option value="Farmer">Farmer</option> <option value="Extension (Government, NGO, Non-Profit, etc.)">Extension (Government, NGO, Non-Profit, etc.)</option> <option value="Student">Student</option> <option value="Researcher">Researcher</option> <option value="Educator (Primary, Secondary, University)">Educator (Primary, Secondary, University)</option> <option value="Other">Other</option></select>
 <div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1787657542"><div class="ss-q-title">What industry are you in?
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+<span class="ss-required-asterisk" aria-hidden="true">*</span></div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<input type="text" name="entry.1787657542" value="" class="ss-q-short" id="entry_1787657542" dir="auto" aria-label="What industry are you in?  " aria-required="true" required="" title="">
+<div class="error-message" id="446974672_errorMessage"></div>
+<div class="required-message">This is a required question</div>
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item ss-item-required ss-radio"><div class="ss-form-entry">
 <label class="ss-q-item-label" for="entry_1805128399"><div class="ss-q-title">How do you plan to use our materials/contents?
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-</div>
+<span class="ss-required-asterisk" aria-hidden="true">*</span></div>
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
 
-<ul class="ss-choices" role="radiogroup" aria-label="How do you plan to use our materials/contents?  "><li class="ss-choice-item"><label><span class="ss-
-
-choice-item-control goog-inline-block"><input type="radio" name="entry.1434390004" value="For teaching" id="group_1434390004_1" role="radio" class="ss-q-
-
-radio" aria-label="For teaching" required="" aria-required="true"></span>
+<ul class="ss-choices" role="radiogroup" aria-label="How do you plan to use our materials/contents?  "><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1434390004" value="For teaching" id="group_1434390004_1" role="radio" class="ss-q-radio" aria-label="For teaching" required="" aria-required="true"></span>
 <span class="ss-choice-label">For teaching</span>
-</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1434390004" value="For 
-
-study/research" id="group_1434390004_2" role="radio" class="ss-q-radio" aria-label="For study/research" required="" aria-required="true"></span>
+</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1434390004" value="For study/research" id="group_1434390004_2" role="radio" class="ss-q-radio" aria-label="For study/research" required="" aria-required="true"></span>
 <span class="ss-choice-label">For study/research</span>
-</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1434390004" 
-
-value="Personal guide to farming" id="group_1434390004_3" role="radio" class="ss-q-radio" aria-label="Personal guide to farming" required="" aria-
-
-required="true"></span>
+</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1434390004" value="Personal guide to farming" id="group_1434390004_3" role="radio" class="ss-q-radio" aria-label="Personal guide to farming" required="" aria-required="true"></span>
 <span class="ss-choice-label">Personal guide to farming</span>
-</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1434390004" 
-
-value="Extension guide" id="group_1434390004_4" role="radio" class="ss-q-radio" aria-label="Extension guide" required="" aria-required="true"></span>
+</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1434390004" value="Extension guide" id="group_1434390004_4" role="radio" class="ss-q-radio" aria-label="Extension guide" required="" aria-required="true"></span>
 <span class="ss-choice-label">Extension guide</span>
-</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1434390004" 
-
-value="__other_option__" id="group_1434390004_5" role="radio" class="ss-q-radio ss-q-other-toggle" required="" aria-required="true"></span>
+</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1434390004" value="__other_option__" id="group_1434390004_5" role="radio" class="ss-q-radio ss-q-other-toggle" required="" aria-required="true"></span>
 <span class="ss-choice-label">Other:</span></label>
-<span class="ss-q-other-container goog-inline-block"><input type="text" name="entry.1434390004.other_option_response" value="" class="ss-q-other" 
-
-id="entry_1434390004_other_option_response" dir="auto" aria-label="Other"></span>
+<span class="ss-q-other-container goog-inline-block"><input type="text" name="entry.1434390004.other_option_response" value="" class="ss-q-other" id="entry_1434390004_other_option_response" dir="auto" aria-label="Other"></span>
 </li></ul>
 <div class="error-message" id="1805128399_errorMessage"></div>
 <div class="required-message">This is a required question</div></div></div></div>
-<input type="hidden" name="draftResponse" value="[,,&quot;8209092968162784296&quot;]
+<input type="hidden" name="draftResponse" value="[,,&quot;8370584475285439953&quot;]
 ">
 <input type="hidden" name="pageHistory" value="0">
 
 
-<input type="hidden" name="fbzx" value="8209092968162784296">
+<input type="hidden" name="fbzx" value="8370584475285439953">
 
 <div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
 <input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
@@ -433,24 +422,20 @@ id="entry_1434390004_other_option_response" dir="auto" aria-label="Other"></span
 <div class="ss-footer"><div class="ss-attribution"></div>
 <div class="ss-legal"><div class="disclaimer-separator"></div>
 <div class="disclaimer" dir="ltr"><div class="powered-by-logo"><span class="powered-by-text">Powered by</span>
-<a href="https://www.google.com/forms/about/?utm_source=product&amp;utm_medium=forms_logo&amp;utm_campaign=forms"><div class="ss-logo-container ss-logo-css-
-
-container"><div class="ss-logo-image"></div>
+<a href="https://www.google.com/forms/about/?utm_source=product&amp;utm_medium=forms_logo&amp;utm_campaign=forms"><div class="ss-logo-container ss-logo-css-container"><div class="ss-logo-image"></div>
 <span class="aria-only-help">Google Forms</span></div></a></div>
 <div class="ss-terms"><span class="disclaimer-msg">This form was created inside of the International Rice Research Institute.</span>
 <br>
-<a href="https://docs.google.com/forms/d/1fkmvk-C8fM_i0JYc-wyAPt0q02yEFEfClMIHXEn7uIE/reportabuse?source=https://docs.google.com/forms/d/1fkmvk-C8fM_i0JYc-
-
-wyAPt0q02yEFEfClMIHXEn7uIE/viewform">Report Abuse</a>
+<a href="https://docs.google.com/forms/d/1fkmvk-C8fM_i0JYc-wyAPt0q02yEFEfClMIHXEn7uIE/reportabuse?source=https://docs.google.com/forms/d/1fkmvk-C8fM_i0JYc-wyAPt0q02yEFEfClMIHXEn7uIE/viewform">Report Abuse</a>
 -
 <a href="http://www.google.com/accounts/TOS">Terms of Service</a>
 -
 <a href="http://www.google.com/google-d-s/terms.html">Additional Terms</a></div></div></div></div>
 
 <div id="docs-aria-speakable" class="docs-a11y-ariascreenreader-speakable docs-offscreen" aria-live="assertive" role="region" aria-atomic></div></div>
+<a class="ss-edit-link" href="https://docs.google.com/a/irri.org/forms/d/1fkmvk-C8fM_i0JYc-wyAPt0q02yEFEfClMIHXEn7uIE/edit">Edit this form</a>
 
-
-<script type='text/javascript' src='https://docs.google.com/static/forms/client/js/3954015373-formviewer_prd.js'></script>
+<script type='text/javascript' src='/static/forms/client/js/1152951977-formviewer_prd.js'></script>
 <script type="text/javascript">H5F.setup(document.getElementById('ss-form'));
           _initFormViewer(
             "[100,,[]\n]\n");</script></div></body></html>
