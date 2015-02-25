@@ -14,12 +14,18 @@ body {
 background-color: rgb(255,255,255);
 }
 
-.ss-form-container, .ss-resp-card {
-background-color: rgb(255,255,255);margin-top:-50px;
-}
-
+/*begin my custom*/
 .ss-required-asterisk {
 display: none;
+}
+
+.ss-top-of-page {
+margin-bottom: 0 !important;
+}
+/*end my custom*/
+
+.ss-form-container, .ss-resp-card {
+background-color: rgb(255,255,255);margin-top:-50px;
 }
 
 .ss-footer, .ss-response-footer {
