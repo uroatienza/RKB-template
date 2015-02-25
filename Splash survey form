@@ -15,7 +15,7 @@ background-color: rgb(255,255,255);
 }
 
 /*begin my custom*/
-.ss-required-asterisk {
+.ss-required-asterisk, .ss-edit-link {
 display: none;
 }
 
