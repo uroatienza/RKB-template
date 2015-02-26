@@ -386,7 +386,7 @@ by completing a short survey.">
 <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
 <select name="entry.1787657542" id="entry_1787657542" aria-label="In what region do you live?  " aria-required="true" required=""><option value=""></option>
-<option value="Africa">Africa</option> <option value="Asia">Asia</option> <option value="Australia">Australia</option> <option value="Europe">Europe</option> <option value="South America">South America</option> <option value="North America">North America</option></select>
+<option value="Africa">Africa</option> <option value="Asia">Asia</option> <option value="Europe">Europe</option> <option value="Middle East">Middle East</option> <option value="North America">North America</option> <option value="South America">South America</option> <option value="Oceania">Oceania</option></select>
 <div class="required-message">This is a required question</div></div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item ss-item-required ss-radio"><div class="ss-form-entry">
 <label class="ss-q-item-label" for="entry_1805128399"><div class="ss-q-title">How do you plan to use our materials/contents?
