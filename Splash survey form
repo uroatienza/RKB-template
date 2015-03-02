@@ -1,3 +1,7 @@
+/*joomla code start here*/
+{modal index.php/user-poll|title=Welcome to RKB|scrolling=false|iframe=1|width=450|height=400|overlayClose=false|escKey=false|closeButton=false|open=once}{/modal}
+/*end joomla code*/
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html><head>
 <link rel="shortcut icon" href="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_jfk2.png" type="image/x-icon">
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
