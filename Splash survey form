@@ -241,6 +241,26 @@ background-image: url('https://docs.google.com//ssl.gstatic.com/docs/forms/forms
 }
 }
 
+
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+::i-block-chrome, .ss-choice-item {
+padding-top: 0 !important;
+}
+::i-block-chrome, .ss-form-question {
+padding-bottom: 0 !important;
+}
+::i-block-chrome, .ss-form-container, .ss-resp-card {
+margin-top: -60px !important;
+}
+::i-block-chrome, input[type="submit"], .jfk-button, button {
+padding: 0 5px !important;
+}
+}
+
+
 </style>
 
 
