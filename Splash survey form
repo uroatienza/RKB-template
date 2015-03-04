@@ -22,7 +22,6 @@ background-color: rgb(255,255,255);
 .ss-required-asterisk, .ss-edit-link {
 display: none;
 }
-.ss-choice-item {list-style: none !important;}
 .ss-top-of-page {
 margin-bottom: 0 !important;
 }
@@ -69,9 +68,9 @@ font-size: 1.080rem;
 }
 
 .ss-choices {
-font-size: 1.000rem;
-} .ss-choice-item {background: none !important;}
-
+font-size: 1.000rem;padding: 100px 0 0;
+} 
+.ss-choice-item {background: none !important;}
 body {
 font-family: "Roboto";
 color: rgb(119,119,119);
