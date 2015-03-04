@@ -68,7 +68,7 @@ font-size: 1.080rem;
 }
 
 .ss-choices {
-font-size: 1.000rem;padding: 100px 0 0;
+font-size: 1.000rem;
 } 
 .ss-choice-item {background: none !important;}
 body {
