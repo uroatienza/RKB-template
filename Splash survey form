@@ -22,6 +22,9 @@ background-color: rgb(255,255,255);
 .ss-required-asterisk, .ss-edit-link {
 display: none;
 }
+
+#scrollToTop {display:none;} /*hide feedback button*/
+
 .ss-top-of-page {
 margin-bottom: 0 !important;
 }
