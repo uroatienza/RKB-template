@@ -48,6 +48,8 @@ $this->setHeadData($head);
     <style type="text/css">
     	.factsheetImages-header {width:100%;}
     	.factsheetImages-footer {width:100%;}
+    	#scrollToTop { display:none;} /* hide feedback button*/
+	.did-this-page-help-you { display:none;} /* hide did this page help? button*/
     </style>
 
 </head>
