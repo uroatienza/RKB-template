@@ -1,9 +1,11 @@
-upon zoo update. check for
+upon zoo update. check
 
-RKB-template/media/zoo/elements/itemprint/assets/css
-RKB-template/media/zoo/elements/itemprint.php
-RKB-template/media/zoo/applications/documentation/templates/default/category.php
-RKB-template/media/zoo/applications/documentation/templates/default/_category.php
-RKB-template/media/zoo/applications/documentation/templates/default/renderer/item/full.php
-RKB-template/media/zoo/applications/product/templates/default/assets/css/item.css
-RKB-template/media/zoo/applications/product/templates/default/renderer/item/full.php
+copy and paste content from github to server using ssh
+
+/media/zoo/elements/itemprint/assets/css
+/media/zoo/elements/itemprint.php
+/media/zoo/applications/documentation/templates/default/category.php
+/media/zoo/applications/documentation/templates/default/_category.php
+/media/zoo/applications/documentation/templates/default/renderer/item/full.php
+/media/zoo/applications/product/templates/default/assets/css/item.css
+/media/zoo/applications/product/templates/default/renderer/item/full.php
