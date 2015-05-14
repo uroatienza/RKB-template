@@ -1,7 +1,9 @@
-upon zoo update
+upon zoo update. check for
 
-check
-category.php
-_category.php
-zoo/elements/itemprint/assets/css
-zoo/elements/itemprint.php
+RKB-template/media/zoo/elements/itemprint/assets/css
+RKB-template/media/zoo/elements/itemprint.php
+RKB-template/media/zoo/applications/documentation/templates/default/category.php
+RKB-template/media/zoo/applications/documentation/templates/default/_category.php
+RKB-template/media/zoo/applications/documentation/templates/default/renderer/item/full.php
+RKB-template/media/zoo/applications/product/templates/default/assets/css/item.css
+RKB-template/media/zoo/applications/product/templates/default/renderer/item/full.php
