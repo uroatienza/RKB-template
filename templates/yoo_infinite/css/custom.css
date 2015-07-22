@@ -178,9 +178,9 @@ ul.zoo-list > li {border-top: 1px solid rgba(36, 36, 36, 0.26); /* lighten the b
 #block-bottom-c ul,  #block-bottom-c ul {padding: 0;}
 
 /*layout.css line 77  */
-#menubar {float: left;margin-left: 22%;}
+#menubar {float: left;margin-left: 20%;clear:both;/*orig is without the clear*/}
 /*layout.css line 98  */
-#menu {margin-top:	10px !important;}
+#menu {margin-top:	-5px !important;/*orig is 10px*/}
 /*menu.css modification line 30*/
 .menu-dropdown a.level1 > span, .menu-dropdown span.level1 > span {height: 30px; padding: 2px 20px 15px 20px;}
 /*menu.css modification line 36*/
