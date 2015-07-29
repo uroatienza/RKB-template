@@ -12,7 +12,7 @@
 /* Frontpage: Features
 ----------------------------------------------------------------------------------------------------*/
 .frontpage-teaser1 {background-image: url(../../../images/rkb-banner.jpg) !important;background-position: 0 50%;background-repeat: no-repeat;background-size: cover;}
-
+.frontpage-teaser2 {background-image: url(../../../images/indiarkb-home-banner.jpg) !important;background-position: 0 50%;background-repeat: no-repeat;background-size: cover;}
 /* Frontpage: Features
 ----------------------------------------------------------------------------------------------------*/
 .frontpage-features {margin-top: 30px; overflow: hidden;}
