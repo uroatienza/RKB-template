@@ -45,18 +45,33 @@ $this->setHeadData($head);
 		}
 		});
     </script>
-    <style type="text/css">
-    	.factsheetImages-header {width:100%;}
-    	.factsheetImages-footer {width:100%;}
-    	#scrollToTop { display:none;} /* hide feedback button*/
-	.did-this-page-help-you { display:none;} /* hide did this page help? button*/
+     <style type="text/css">
+        .factsheetImages-header {width:100%;}
+        .factsheetImages-footer {width:100%;}
+#scrollToTop { display:none;} /* hide feedback button*/
+.did-this-page-help-you { display:none;} /* hide did this page help? button*/
+
+@media print {
+thead { display: table-header-group; }
+tfoot { display: table-footer-group; }
+}
+@media screen {
+thead { display: block; }
+tfoot { display: block; }
+}
     </style>
 
 </head>
 <body class="contentpane">
-<div class="fs-header"></div>
-	<jdoc:include type="message" />
-    <jdoc:include type="component" />
-<div class="fs-footer"></div>
+<table>
+   <thead><tr><td><div class="fs-header"></div></td></tr></thead>
+   <tbody>
+     <tr><td>
+        <jdoc:include type="message" />
+        <jdoc:include type="component" />
+     </td></tr>
+   </tbody>
+   <tfoot><tr><td><div class="fs-footer" style="position:fixed;bottom:0;" ></div></td></tr></tfoot>
+</table>
 </body>
 </html>
