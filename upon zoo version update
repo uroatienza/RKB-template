@@ -3,9 +3,29 @@ upon zoo update. check
 copy and paste content from github to server using ssh
 
 media/zoo/elements/itemprint/assets/css
+FROM: https://github.com/uroatienza/RKB-template/blob/master/media/zoo/elements/itemprint/assets/css/itemprint.css
+TO: 
+
 media/zoo/elements/itemprint/itemprint.php
+FROM: https://github.com/uroatienza/RKB-template/blob/master/media/zoo/elements/itemprint.php
+TO: 
+
 media/zoo/applications/documentation/templates/default/category.php
+FROM: https://github.com/uroatienza/RKB-template/blob/master/media/zoo/applications/documentation/templates/default/category.php
+TO: 
+
 media/zoo/applications/documentation/templates/default/_category.php
+FROM: https://github.com/uroatienza/RKB-template/blob/master/media/zoo/applications/documentation/templates/default/_category.php
+TO:
+
 media/zoo/applications/documentation/templates/default/renderer/item/full.php
+FROM: https://github.com/uroatienza/RKB-template/blob/master/media/zoo/applications/documentation/templates/default/renderer/item/full.php
+TO:
+
 media/zoo/applications/product/templates/default/assets/css/item.css
+FROM: https://github.com/uroatienza/RKB-template/blob/master/media/zoo/applications/product/templates/default/assets/css/item.css
+TO:
+
 media/zoo/applications/product/templates/default/renderer/item/full.php
+FROM: https://github.com/uroatienza/RKB-template/blob/master/media/zoo/applications/product/templates/default/renderer/item/full.php
+TO:
