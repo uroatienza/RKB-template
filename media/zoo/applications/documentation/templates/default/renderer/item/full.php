@@ -17,6 +17,7 @@ defined('_JEXEC') or die('Restricted access');
 </div>
 <?php endif; ?>
 
+//added by uro
 <?php if ($this->checkPosition('media')) : ?>
 		<div class="pos-media <?php echo 'media-'.$view->params->get('template.item_media_alignment'); ?>">
 			<?php echo $this->renderPosition('media', array('style' => 'block')); ?>
