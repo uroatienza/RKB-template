@@ -2,30 +2,30 @@ upon zoo update. check
 
 copy and paste content from github to server using ssh
 
-media/zoo/elements/itemprint/assets/css
+itemprint.css
 FROM: https://github.com/uroatienza/RKB-template/blob/master/media/zoo/elements/itemprint/assets/css/itemprint.css
-TO: 
+TO: cd /web/rice/media/zoo/elements/itemprint/assets/css/
 
-media/zoo/elements/itemprint/itemprint.php
+itemprint.php
 FROM: https://github.com/uroatienza/RKB-template/blob/master/media/zoo/elements/itemprint.php
-TO: 
+TO: cd /web/rice/media/zoo/elements/itemprint/
 
-media/zoo/applications/documentation/templates/default/category.php
+category.php
 FROM: https://github.com/uroatienza/RKB-template/blob/master/media/zoo/applications/documentation/templates/default/category.php
-TO: 
+TO: cd /web/rice/media/zoo/applications/documentation/templates/default/
 
-media/zoo/applications/documentation/templates/default/_category.php
+_category.php
 FROM: https://github.com/uroatienza/RKB-template/blob/master/media/zoo/applications/documentation/templates/default/_category.php
-TO:
+TO: cd /web/rice/media/zoo/applications/documentation/templates/default/
 
-media/zoo/applications/documentation/templates/default/renderer/item/full.php
+full.php
 FROM: https://github.com/uroatienza/RKB-template/blob/master/media/zoo/applications/documentation/templates/default/renderer/item/full.php
-TO:
+TO: cd /web/rice/media/zoo/applications/documentation/templates/default/renderer/item/
 
-media/zoo/applications/product/templates/default/assets/css/item.css
+item.css
 FROM: https://github.com/uroatienza/RKB-template/blob/master/media/zoo/applications/product/templates/default/assets/css/item.css
-TO:
+TO: cd /web/rice/media/zoo/applications/product/templates/default/assets/css/
 
-media/zoo/applications/product/templates/default/renderer/item/full.php
+full.php
 FROM: https://github.com/uroatienza/RKB-template/blob/master/media/zoo/applications/product/templates/default/renderer/item/full.php
-TO:
+TO: cd /web/rice/media/zoo/applications/product/templates/default/renderer/item/
