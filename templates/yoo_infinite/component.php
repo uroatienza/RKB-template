@@ -71,7 +71,7 @@ tfoot { display: block; }
         <jdoc:include type="component" />
      </td></tr>
    </tbody>
-   <tfoot><tr><td><div class="fs-footer" style="position:fixed;bottom:0;" ></div></td></tr></tfoot>
+   <tfoot><tr><td><div class="fs-footer"></div></td></tr></tfoot>
 </table>
 </body>
 </html>
