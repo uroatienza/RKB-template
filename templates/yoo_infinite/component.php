@@ -28,10 +28,11 @@ $this->setHeadData($head);
 	<jdoc:include type="head" />
     
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/warp/css/tools.css" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/tools.css" type="text/css" />
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery.js" type="text/javascript"></script>
     <style type="text/css">
-    	iframe { border: none !important;}
-	</style>
+    	iframe { border: none !important;}	</style>
 
     
     <script type="text/javascript">
@@ -45,9 +46,9 @@ $this->setHeadData($head);
 		}
 		});
     </script>
-     <style type="text/css">
-        .factsheetImages-header {width:100%;}
-        .factsheetImages-footer {width:100%;}
+    <style type="text/css">
+    	.factsheetImages-header {width:100%;}
+    	.factsheetImages-footer {width:100%;}
 #scrollToTop { display:none;} /* hide feedback button*/
 .did-this-page-help-you { display:none;} /* hide did this page help? button*/
 
@@ -67,11 +68,11 @@ tfoot { display: block; }
    <thead><tr><td><div class="fs-header"></div></td></tr></thead>
    <tbody>
      <tr><td>
-        <jdoc:include type="message" />
-        <jdoc:include type="component" />
+    	<jdoc:include type="message" />
+    	<jdoc:include type="component" />
      </td></tr>
    </tbody>
-   <tfoot><tr><td><div class="fs-footer"></div></td></tr></tfoot>
+   <tfoot><tr><td><div style="margin-top:-40px;" class="fs-footer"></div></td></tr></tfoot>
 </table>
 </body>
 </html>
