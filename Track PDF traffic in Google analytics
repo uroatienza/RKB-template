@@ -1,0 +1,11 @@
+Tracking Search Traffic to the PDF
+
+Add a URL parameter to every link pointing to each PDF document on your site.
+
+For example: <a href=”http://www.domain.com/services/brochure.pdf?pdf=Services-Brochure” target=”_blank”>Services Brochure</a>
+
+In the above URL we’ve added the parameter “?pdf=Services-Brochure” to the end of the PDF URL link.
+
+Notice we added our own custom tracking text to the parameter so we could tell this link was the “Services Brochure”.
+
+This doesn’t change the way the PDF document is displayed or downloaded by your users.
